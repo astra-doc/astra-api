@@ -1,6 +1,18 @@
-MIT License
+[ASTRA API 이용 약관 및 면책 조항]
 
-Copyright (c) 2026 astra-doc
+본 소프트웨어를 사용하는 것은 아래의 약관에 동의하는 것으로 간주됩니다.
+
+1. 투자 책임: 본 소프트웨어는 자동매매를 위한 개발 도구일 뿐입니다. 제작자는 투자 전문가가 아니며, 어떠한 투자 자문도 제공하지 않습니다. 본 API를 사용한 매매 결과(손실 포함)에 대한 책임은 전적으로 사용자 본인에게 있습니다.
+
+2. 투자자문업 부인: 본 소프트웨어의 배포는 자본시장법상 투자자문업 또는 투자일임업에 해당하지 않습니다. 제작자는 특정 종목에 대한 추천이나 자산 운용 서비스를 제공하지 않습니다.
+
+3. 역설계 금지: 리버스 엔지니어링, 디컴파일, 소스 코드 추출을 시도하는 행위를 엄격히 금지합니다.
+
+4. 기술적 위험: 사용자는 네트워크 장애, 증권사 시스템 오류, API 변경 등 기술적 위험으로 인해 발생할 수 있는 매매 오류를 인지하고 있으며, 제작자는 이에 따른 책임을 지지 않습니다.
+
+[MIT License - Standard Text]
+
+Copyright (c) 2026 astra
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
