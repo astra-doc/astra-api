@@ -10,6 +10,7 @@
     * [get\_yesterday\_close\_price](#api.Astra.get_yesterday_close_price)
     * [get\_extra\_prices](#api.Astra.get_extra_prices)
     * [get\_close\_price\_history](#api.Astra.get_close_price_history)
+    * [get\_average\_cost](#api.Astra.get_average_cost)
     * [buy](#api.Astra.buy)
     * [sell](#api.Astra.sell)
     * [cancel](#api.Astra.cancel)
@@ -145,6 +146,20 @@ def get_close_price_history()
 **Returns**:
 
 - `list[list[str]]` - 일별 종가 이력
+
+<a id="api.Astra.get_average_cost"></a>
+
+## get\_average\_cost
+
+```python
+def get_average_cost()
+```
+
+현재 보유 중인 종목의 평균 매수 단가(평단가)를 조회합니다.
+
+**Returns**:
+
+- `float` - 평균 매입 단가
 
 <a id="api.Astra.buy"></a>
 
