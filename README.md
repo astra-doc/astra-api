@@ -175,7 +175,8 @@ def buy(qty, price, order_type)
 
 - `qty` _int_ - 매수 수량
 - `price` _float_ - 매수 가격
-- `order_type` _str_ - 주문 유형. 지정가|시장가|LOC|MOC
+- `order_type` _str_ - 주문 유형. 지정가|시장가|LOO|LOC|LIMIT VWAP|LIMIT TWAP|장전 시간외종가|장후 시간외종가
+  (MOC|MOO|VWAP|TWAP는 매도만 지원)
 
 <a id="api.Astra.sell"></a>
 
@@ -191,7 +192,7 @@ def sell(qty, price, order_type)
 
 - `qty` _int_ - 매도 수량
 - `price` _float_ - 매도 가격
-- `order_type` _str_ - 주문 유형. 지정가|시장가|LOC|MOC
+- `order_type` _str_ - 주문 유형. 지정가|시장가|LOO|LOC|MOC|MOO|VWAP|TWAP|LIMIT VWAP|LIMIT TWAP|장전 시간외종가|장후 시간외종가
 
 <a id="api.Astra.cancel"></a>
 
