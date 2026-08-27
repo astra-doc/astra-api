@@ -38,7 +38,12 @@ HTS 제어, 시세 조회, 주문 집행 등 모든 기능을 통합하여 제�
 ## \_\_init\_\_
 
 ```python
-def __init__(cert_idx, cert_pw, account_idx, account_pw, ticker)
+def __init__(cert_idx,
+             cert_pw,
+             account_idx,
+             account_pw,
+             ticker,
+             broker="메리츠증권")
 ```
 
 Astra API를 초기화하고 종목에 맞는 인스턴스를 할당합니다.
@@ -50,6 +55,7 @@ Astra API를 초기화하고 종목에 맞는 인스턴스를 할당합니다.
 - `account_idx` _int_ - 계좌 번호 순번 (1부터 시작)
 - `account_pw` _str_ - 계좌 비밀번호 (4~8자리)
 - `ticker` _str_ - 대상 종목 티커 (예: 'AAPL', '005930')
+- `broker` _str_ - 증권사 이름. 기본값 "메리츠증권". 지원: "메리츠증권", "유진투자증권"
 
 <a id="api.Astra.connect"></a>
 
